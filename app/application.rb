@@ -12,7 +12,7 @@ class Application
       if item_price == nil
         resp.write "Item not found"
         resp.status = 400
-      else 
+      else
         resp.write "#{item_price.price}"
       end
     else
